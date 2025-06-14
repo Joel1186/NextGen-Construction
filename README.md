@@ -117,6 +117,15 @@ The application is configured for Vercel deployment with:
 └── package.json
 \`\`\`
 
+## Running Tests
+
+The project uses [Vitest](https://vitest.dev/) for unit testing. To run the
+test suite, execute:
+
+```bash
+npm test
+```
+
 ## API Routes
 
 - `POST /api/auth/register` - User registration
