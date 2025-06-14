@@ -119,8 +119,8 @@ The application is configured for Vercel deployment with:
 
 ## Running Tests
 
-The project uses [Vitest](https://vitest.dev/) for unit testing. To run the
-test suite, execute:
+The project uses [Vitest](https://vitest.dev/) for unit testing. Make sure
+dependencies are installed with `npm install` (or `pnpm install`) and then run:
 
 ```bash
 npm test
