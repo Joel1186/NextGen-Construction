@@ -9,7 +9,11 @@ import type {
 } from "@/components/ui/toast"
 
 const TOAST_LIMIT = 1
-const TOAST_REMOVE_DELAY = 1000000
+// Amount of time (in ms) a toast stays visible before being removed
+// The previous value left toasts on screen for an excessively long
+// period (over 16 minutes) which meant notifications lingered and
+// cluttered the UI. Five seconds is a more typical default.
+const TOAST_REMOVE_DELAY = 5000
 
 type ToasterToast = ToastProps & {
   id: string
